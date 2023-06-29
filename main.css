@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 24px 0px 34px 0px rgba(0, 0, 0, 0.08);
+    height: 56px;
+}
+
+header div, .white-section, #purple-content, .cards-row, #grey-content, .integration {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 40px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #646464;
+}
+
+h1 {
+    font-size: 56px;
+    color: #141316;
+}
+
+p {
+    font-size: 16px;
+    line-height: 150%;
+    color: #141316;
+}
+
+h1, h2, p {
+    margin-bottom: 40px;
+}
+
+.purple-font {
+    color: #582DB4;
+}
+
+.white-section {
+    margin: 40px auto;
+}
+
+.primary-button {
+    height: 48px;
+    padding: 0 32px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    background-color: #582DB4;
+    color: #FFFFFF;
+}
+
+.primary-button:hover, .fab:hover {
+    background-color: #8D7ABC;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #141316;
+}
+
+#purple-section {
+    background-color: #582DB4;
+    width: 100%;
+    padding-top: 80px;
+    height: 460px;
+}
+
+#purple-content{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.pink-font {
+    color: #FA3296;
+}
+
+.white-font {
+    color: #FFFFFF;
+}
+
+.card {
+    position: relative;
+    top: -50%;
+    background-color: #fff;
+    width: 264px;
+    height: 280px;
+    padding: 32px 32px 0 32px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 24px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #141316;
+}
+
+.card h4 {
+    margin-bottom: 16px;
+}
+
+#grey-section {
+    background-color: #F7F7F8;
+    width: 100%;
+}
+
+#grey-content {
+    padding-top: 140px;
+    padding-bottom: 80px;
+    display: block;
+}
+
+#grey-content h2 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.integration {
+    align-items: start;
+    margin-top: 80px;
+}
+
+.integration div {
+    width: 350px;
+    height: 260px;
+    padding-top: 60px;
+}
+
+.integration h4 {
+    margin-bottom: 16px;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact h2{
+    margin-top: 80px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+form label {
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+form input, form textarea {
+    width: 400px;
+    height: 48px;
+    padding: 0 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    border-width: 1px;
+    border: 1px solid #DDDDE0;
+    outline: none;
+    margin-bottom: 24px;
+    background-color: #fff;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid #582DB4;
+}
+
+form textarea {
+    padding-top: 16px;
+    height: 144px;
+    resize: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.fab {
+    background-color: #582DB4;
+    color: #fff;
+    border: none;
+    border-radius: 500px;
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+}
